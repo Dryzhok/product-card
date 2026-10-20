@@ -1,15 +1,23 @@
-.title {
+* {
+  box-sizing: border-box;
+  
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  color: #515076;
+}
+
+.title {
   font-size: 70px;
   line-height: 78px;
   text-align: center;
   margin-top: 220px;
   margin-bottom: 110px;
-  color: #515076;
 }
 
-.text {
-  font-weight: 400;
+.item__category {
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
@@ -18,64 +26,54 @@
   color: #A5A3B9;
 }
 
-.second-title {
+.item__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   margin: 5px 0;
-  color: #515076;
 }
 
-.paragraph {
-  font-weight: 400;
+.item__paragraph {
   font-size: 13px;
   line-height: 18px;
   margin: 0px 28px 15px 0px;
   width: 280px;
-  color: #515076;
 }
 
-.second-text {
-  font-weight: 400;
+.item__text {
   font-size: 13px;
   line-height: 18px;
   display: block;
   margin-bottom: 5px;
-  color: #515076;
 }
 
-.list {
-  font-weight: 400;
+.item__list {
   font-size: 13px;
   line-height: 18px;
   padding-left: 15px;
-  color: #515076;
   margin-bottom: 25px;
   li {
     margin-bottom: 5px;
   }
 }
 
-.price {
+.item__price {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   margin-right: 161px;
-  color: #515076;
 }
 
-.price-tag {
-  font-weight: 400;
+.item__price-tag {
   font-size: 20px;
   line-height: 24px;
-  color: #515076;
 }
 
-.card {
+.card-list__item {
   background-color: #F7F7FA;
   padding: 25px;
   padding-right: 0px;
-  width: 315px;
+  width: 340px;
 }
 
 .card-list {
@@ -88,11 +86,6 @@
   max-width: 1110px;
   padding: 0px;
   margin: 0px auto;
-}
-
-.body {
-  padding-left: 85px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .card-background {
