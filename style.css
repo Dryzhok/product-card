@@ -31,7 +31,7 @@
   font-size: 13px;
   line-height: 18px;
   margin: 0px 28px 15px 0px;
-  width: 270px;
+  width: 280px;
   color: #515076;
 }
 
@@ -80,8 +80,28 @@
 
 .card-list {
   list-style: none;
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1110px;
+  padding: 0px;
+  margin: 0px auto;
 }
 
 .body {
   padding-left: 85px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-background {
+  background-image: url(images/background.png);
+  height: 697px;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 790px;
+  z-index: -1;
+  top: 0;
+  left: 85px;
 }
